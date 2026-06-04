@@ -79,7 +79,9 @@ export function Visit() {
             <div className="flex items-center gap-2 mt-5 pt-5 border-t border-line">
               <a
                 aria-label="Instagram"
-                href="#"
+                href="https://www.instagram.com/dr.ashwiniskinarcclinic"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full border border-line grid place-items-center hover:bg-ink hover:text-bg transition"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
@@ -90,7 +92,9 @@ export function Visit() {
               </a>
               <a
                 aria-label="Facebook"
-                href="#"
+                href="https://www.facebook.com/share/1HUAKyux5e/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full border border-line grid place-items-center hover:bg-ink hover:text-bg transition"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
