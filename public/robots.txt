@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /node_modules/
-Disallow: /src/
 
-Sitemap: https://skinarc.in/sitemap.xml
+Sitemap: https://www.skinarc.in/sitemap.xml
