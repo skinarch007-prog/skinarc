@@ -45,7 +45,7 @@ export function Header({ onOpenMenu }: Props) {
         <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <a
             href="tel:+917288911000"
-            className="hidden md:inline-flex btn btn-ghost !py-1.5 !px-3 !gap-1.5 text-[12px]"
+            className="hidden lg:inline-flex btn btn-ghost !py-1.5 !px-3 !gap-1.5 text-[12px]"
             aria-label="Call clinic"
           >
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -53,7 +53,7 @@ export function Header({ onOpenMenu }: Props) {
             </svg>
             Call
           </a>
-          <a href="#book" className="hidden sm:inline-flex btn btn-primary !py-1.5 !px-3.5 text-[12px] whitespace-nowrap">
+          <a href="#book" className="hidden lg:inline-flex btn btn-primary !py-1.5 !px-3.5 text-[12px] whitespace-nowrap">
             Book Consultation
           </a>
           <button
