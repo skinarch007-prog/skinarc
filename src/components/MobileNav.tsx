@@ -22,10 +22,18 @@ export function MobileNav({ open, onClose }: Props) {
   }, [open]);
 
   return (
-    <aside
-      className={`mnav ${open ? 'open' : ''} fixed inset-0 z-50 bg-bg pt-5 px-6 pb-10 overflow-y-auto`}
-      aria-hidden={!open}
-    >
+    <>
+      <div
+        className={`fixed inset-0 z-40 bg-ink/40 backdrop-blur-[1px] transition-opacity duration-300 lg:hidden ${
+          open ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+        onClick={onClose}
+        aria-hidden
+      />
+      <aside
+        className={`mnav ${open ? 'open' : ''} fixed top-0 right-0 z-50 h-full w-[68%] max-w-[300px] bg-bg pt-5 px-5 pb-10 overflow-y-auto shadow-[0_0_60px_-10px_rgba(31,27,22,0.45)]`}
+        aria-hidden={!open}
+      >
       <div className="flex items-center justify-between mb-10">
         <span className="flex items-center gap-2 min-w-0">
           <img src="/brand/lotus.png" alt="" className="h-7 w-auto shrink-0" />
@@ -68,6 +76,7 @@ export function MobileNav({ open, onClose }: Props) {
           </a>
         </div>
       </div>
-    </aside>
+      </aside>
+    </>
   );
 }
