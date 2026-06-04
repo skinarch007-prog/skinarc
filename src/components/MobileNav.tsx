@@ -50,16 +50,23 @@ export function MobileNav({ open, onClose }: Props) {
           </a>
         ))}
       </nav>
-      <div className="pt-6 border-t border-line space-y-3 text-sm text-inksoft">
+      <div className="pt-6 border-t border-line space-y-4 text-sm text-inksoft">
         <div>Mon–Sun · 10:00 AM – 2:00 PM, 5:30 PM – 9:30 PM</div>
-        <div>
-          <a href="tel:+917288911000" className="text-ink">
-            +91 72889 11000
+        <div className="flex flex-col gap-3">
+          <a
+            href="tel:+917288911000"
+            className="btn btn-ghost justify-center"
+            onClick={onClose}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            Call +91 72889 11000
+          </a>
+          <a href="#book" className="btn btn-primary justify-center" onClick={onClose}>
+            Book Consultation
           </a>
         </div>
-        <a href="#book" className="btn btn-primary mt-4" onClick={onClose}>
-          Book Consultation
-        </a>
       </div>
     </aside>
   );
