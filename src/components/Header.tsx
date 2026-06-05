@@ -27,7 +27,7 @@ export function Header({ onOpenMenu }: Props) {
             className="h-11 sm:h-11 lg:h-12 w-auto shrink-0 group-hover:scale-110 transition-transform duration-300"
           />
           <span className="flex flex-col leading-[1.0] min-w-0">
-            <span className="text-[12px] sm:text-[13px] lg:text-[14px] font-normal tracking-[0.05em] whitespace-nowrap text-espresso italic" style={{ fontFamily: 'Didot, Bodoni, serif', fontWeight: '400' }}>
+            <span className="text-[14px] sm:text-[16px] lg:text-[18px] font-normal tracking-[0.05em] whitespace-nowrap text-espresso italic" style={{ fontFamily: 'Didot, Bodoni, serif', fontWeight: '400' }}>
               Dr. Ashwini's
             </span>
             <span className="text-[32px] sm:text-[40px] lg:text-[48px] font-bold tracking-[-0.03em] whitespace-nowrap text-espresso" style={{ fontFamily: 'Didot, Bodoni, serif', fontWeight: '700', letterSpacing: '-0.02em' }}>
