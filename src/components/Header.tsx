@@ -20,17 +20,17 @@ export function Header({ onOpenMenu }: Props) {
       className={`sticky top-0 z-40 transition-all ${blurred ? 'header-blur' : ''}`}
     >
       <div className="max-w-[1320px] mx-auto px-4 sm:px-5 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-3">
-        <a href="#top" className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+        <a href="#top" className="flex items-center gap-2.5 sm:gap-3 min-w-0 group">
           <img
             src="/brand/lotus.png"
             alt="Dr. Ashwini's Skin Arc logo"
-            className="h-11 sm:h-11 lg:h-12 w-auto shrink-0"
+            className="h-11 sm:h-11 lg:h-12 w-auto shrink-0 group-hover:scale-110 transition-transform duration-300"
           />
-          <span className="flex flex-col leading-[1.04] min-w-0" style={{ fontFamily: 'Cambria, serif' }}>
-            <span className="text-[16px] sm:text-[17px] lg:text-[18px] font-bold tracking-[-0.01em] whitespace-nowrap">
+          <span className="flex flex-col leading-[1.0] min-w-0">
+            <span className="text-[12px] sm:text-[13px] lg:text-[14px] font-normal tracking-[0.05em] whitespace-nowrap text-espresso italic" style={{ fontFamily: 'Didot, Bodoni, serif', fontWeight: '400' }}>
               Dr. Ashwini's
             </span>
-            <span className="text-[16px] sm:text-[17px] lg:text-[18px] font-bold tracking-[-0.01em] whitespace-nowrap">
+            <span className="text-[32px] sm:text-[40px] lg:text-[48px] font-bold tracking-[-0.03em] whitespace-nowrap text-espresso" style={{ fontFamily: 'Didot, Bodoni, serif', fontWeight: '700', letterSpacing: '-0.02em' }}>
               skin arc<span className="text-accent">.</span>
             </span>
           </span>
