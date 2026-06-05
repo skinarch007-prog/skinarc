@@ -26,11 +26,11 @@ export function Header({ onOpenMenu }: Props) {
             alt="Dr. Ashwini's Skin Arc logo"
             className="h-11 sm:h-11 lg:h-12 w-auto shrink-0"
           />
-          <span className="flex flex-col leading-[1.04] min-w-0">
-            <span className="text-[16.5px] sm:text-[17px] lg:text-[19px] font-bold tracking-[-0.01em] whitespace-nowrap">
+          <span className="flex flex-col leading-[1.04] min-w-0" style={{ fontFamily: 'Cambria, serif' }}>
+            <span className="text-[16px] sm:text-[17px] lg:text-[18px] font-bold tracking-[-0.01em] whitespace-nowrap">
               Dr. Ashwini's
             </span>
-            <span className="text-[16.5px] sm:text-[17px] lg:text-[19px] font-bold tracking-[-0.01em] whitespace-nowrap">
+            <span className="text-[16px] sm:text-[17px] lg:text-[18px] font-bold tracking-[-0.01em] whitespace-nowrap">
               skin arc<span className="text-accent">.</span>
             </span>
           </span>
