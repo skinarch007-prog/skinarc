@@ -120,7 +120,7 @@ export function About() {
               </div>
               <div className="zoom aspect-[4/5]">
                 <img
-                  src="/clinic/procedure-prp.jpg"
+                  src="/clinic/new_img.PNG"
                   alt="Dr. Ashwini performing a PRP scalp procedure"
                   className="w-full h-full object-cover"
                   loading="lazy"
